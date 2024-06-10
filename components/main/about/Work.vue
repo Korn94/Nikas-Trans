@@ -15,7 +15,7 @@
         <p class="number">2</p>
         <p class="text">Ваш груз надежно упаковывается и маркируется.</p>
       </div>
-      <div class="wrap" style="padding-left: 5em ;">
+      <div class="wrap" style="padding-left: 5em;">
         <ul>
           <li>подбирается транспортное средство, отвечающего международным стандартам качества на рынке перевозок.</li>
           <li>определяется оптимальный маршрут следования груза.</li>
@@ -89,12 +89,18 @@
     }
 
     img {
-    width: 90%;
-    height: 90%;
-    left: 1em;
-    right: 1em;
-    top: 0;
+      width: 90%;
+      height: 90%;
+      left: 1em;
+      right: 1em;
+      top: 0;
+    }
   }
 }
+
+@media screen and (max-width: 460px) {
+  ul {
+    margin-top: 1em;
+  }
 }
 </style>
